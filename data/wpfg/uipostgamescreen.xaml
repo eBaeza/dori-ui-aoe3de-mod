@@ -180,14 +180,14 @@
     </Window.Resources>
 
     <Viewbox Style="{StaticResource ViewboxMain}">
-        <Grid Width="1920" Height="1080" Background="{StaticResource wood_tile}">
+        <Grid Width="1920" Height="1080" Background="#33000000">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <!--Top Bar-->
-            <Grid Grid.Row="0" Background="{StaticResource skirmish_titlebarbg}">
-                <ContentControl Template="{StaticResource Titlebar}" />
+            <Grid Grid.Row="0">
+                <!-- <ContentControl Template="{StaticResource Titlebar}" /> -->
                 <Grid Height="50" VerticalAlignment="Top">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -195,7 +195,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <!--Back Button-->
-                    <Grid Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    <Grid Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Visibility="Hidden">
                         <local:Age3Button x:Name="postgame_MainMenuButton" Style="{StaticResource SubMenuBackButton}" VerticalAlignment="Center" ConsoleCommand="leaveGame" Content="$$18445$$Quit">
                             <Button.ToolTip>$$20030$$</Button.ToolTip>
                         </local:Age3Button>
@@ -1036,7 +1036,7 @@
                                     </Button>
                                 </Grid>
 
-                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0">
+                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0" Background="#38000000">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="400"/>
                                         <ColumnDefinition Width="*"/>
@@ -1554,7 +1554,7 @@
                                     </Button>
                                 </Grid>
 
-                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0">
+                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0" Background="#38000000">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="400"/>
                                         <ColumnDefinition Width="*"/>
@@ -2044,7 +2044,7 @@
                                     </Button>
                                 </Grid>
 
-                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0">
+                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0" Background="#38000000">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="400"/>
                                         <ColumnDefinition Width="*"/>
@@ -2547,7 +2547,7 @@
                                     </Button>
                                 </Grid>
 
-                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0">
+                                <Grid Grid.Row="2" Grid.ColumnSpan="5" Width="1825" VerticalAlignment="Stretch" Margin="20,5,20,0" Background="#38000000">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="400"/>
                                         <ColumnDefinition Width="*"/>
@@ -2948,7 +2948,7 @@
                                 <!--Timeline graph-->
                                 <Grid Grid.Row="1" Grid.Column="1">
                                     <!--The Background of the timeline-->
-                                    <Rectangle Fill="Black" Opacity="0.25" Margin="25,25"/> 
+                                    <Rectangle Fill="Black" Opacity="0.35" Margin="25,25"/> 
                                     <!--The Anchor point for the timeline - also controls it's visibility-->
                                     <Rectangle Name="TimelineGraph" Fill="HotPink" Opacity="0.0" Margin="25,25" Visibility="{Binding IsOpen, Source={StaticResource ChatPageData}, Converter={StaticResource FlippedBoolToVisibility}}"/>
                                 </Grid>
