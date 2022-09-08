@@ -2464,9 +2464,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#218c74" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6218c74" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2498,9 +2498,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#218c74" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6218c74" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2541,9 +2541,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#eb2f06" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6eb2f06" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2590,9 +2590,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#79451d" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d679451d" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2639,9 +2639,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#fff200" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6fff200" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2688,9 +2688,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#17c0eb" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d617c0eb" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2733,9 +2733,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#c56cf0" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6c56cf0" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2775,9 +2775,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#32ff7e" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d632ff7e" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2817,9 +2817,9 @@
                               <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28" Opacity="0.9">
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                       <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#000000" Offset="0.5" />
-                                       <GradientStop Color="#f2f2f2" Offset="1" />
+                                       <GradientStop Color="#d6000000" Offset="0" />
+                                       <GradientStop Color="#d6000000" Offset="0.5" />
+                                       <GradientStop Color="#d6f2f2f2" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
