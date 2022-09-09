@@ -2465,8 +2465,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cc218c74" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#cc636e72" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2499,8 +2499,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cc218c74" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#cc636e72" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2542,8 +2542,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cceb2f06" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#ccd63031" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2591,8 +2591,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cc79451d" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#cc5A3300" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2640,8 +2640,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#ccfff200" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#ccFFC312" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2689,8 +2689,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cc17c0eb" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#cc3867d6  " Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2734,7 +2734,7 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
                                        <GradientStop Color="#ccc56cf0" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
@@ -2776,8 +2776,8 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
-                                       <GradientStop Color="#cc32ff7e" Offset="1" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
+                                       <GradientStop Color="#cc4cd137" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
                               </Border>
@@ -2818,7 +2818,7 @@
                                  <Border.Background>
                                     <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                        <GradientStop Color="#000000" Offset="0" />
-                                       <GradientStop Color="#e6000000" Offset="0.45" />
+                                       <GradientStop Color="#000000" Offset="0.5" />
                                        <GradientStop Color="#ccf2f2f2" Offset="1" />
                                     </LinearGradientBrush>
                                  </Border.Background>
