@@ -180,14 +180,14 @@
     </Window.Resources>
 
     <Viewbox Style="{StaticResource ViewboxMain}">
-        <Grid Width="1920" Height="1080" Background="#40000000">
+        <Grid Width="1920" Height="1080" Background="#66000000">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <!--Top Bar-->
             <Grid Grid.Row="0">
-                <!-- <ContentControl Template="{StaticResource Titlebar}" /> -->
+                <ContentControl Template="{StaticResource Titlebar}" Visibility="Hidden" />
                 <Grid Height="50" VerticalAlignment="Top">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -195,7 +195,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <!--Back Button-->
-                    <Grid Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Visibility="Hidden">
+                    <Grid Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left">
                         <local:Age3Button x:Name="postgame_MainMenuButton" Style="{StaticResource SubMenuBackButton}" VerticalAlignment="Center" ConsoleCommand="leaveGame" Content="$$18445$$Quit">
                             <Button.ToolTip>$$20030$$</Button.ToolTip>
                         </local:Age3Button>

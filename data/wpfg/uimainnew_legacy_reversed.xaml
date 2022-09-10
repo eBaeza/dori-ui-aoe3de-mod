@@ -3438,7 +3438,7 @@
                   <ColumnDefinition Width="22" />
                </Grid.ColumnDefinitions>
 
-               <Control Grid.ColumnSpan="3" Style="{StaticResource Ingame_PanelBGStyle}" Margin="10,-15,-10,-45" Opacity="0.7" />
+               <Control Grid.ColumnSpan="3" Style="{StaticResource Ingame_PanelBGStyle}" Margin="10,-15,-10,-45" Opacity="0.5" />
 
                <StackPanel x:Name="mainmenuPanel" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
                   <local:Age3Button x:Name="AgeUpButton" Style="{StaticResource AgeUpButton}" Focusable="False" HorizontalAlignment="Right" Margin="50,0,-50,0" ToolTip="{Binding AgeUpTooltip}"/>
