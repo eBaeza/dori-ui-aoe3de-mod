@@ -2656,6 +2656,54 @@
                         </local:Age3Button>
                      </StackPanel>
 
+                     <!--FAME-->
+                     <StackPanel x:Name="resourcePanel_Fame" Orientation="Horizontal" Height="38" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,-3,0,0">
+                        <Grid Width="auto" Height="38">
+                           <Grid.ColumnDefinitions>
+                              <ColumnDefinition Width="38"/>
+                              <ColumnDefinition Width="auto"/>
+                           </Grid.ColumnDefinitions>
+
+                           <Border Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="15,0,0,0" Height="28">
+                              <Border.Background>
+                                 <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                                    <GradientStop Color="Black" Offset="0" />
+                                    <GradientStop Color="Black" Offset="0.5" />
+                                    <GradientStop Color="#CC252525" Offset="1" />
+                                 </LinearGradientBrush>
+                              </Border.Background>
+                           </Border>
+
+                           <Rectangle Grid.Column="0" Width="38" Height="38">
+                              <Rectangle.Fill>
+                                 <ImageBrush ImageSource="pack://siteoforigin:,,,/resources/images/hud/resource_fame.png"/>
+                              </Rectangle.Fill>
+                           </Rectangle>
+
+                           <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" MinWidth="130">
+                              <TextBlock x:Name="minimapPanel_dpfame">
+							{resource(fame)}
+                                 <TextBlock.ToolTip>
+                                    $$212005$$Fame Gatherers: {numGatherers(fame)}
+                                 </TextBlock.ToolTip>
+                              </TextBlock>
+
+                              <TextBlock x:Name="fame_gatherpermin" FontSize="15" VerticalAlignment="Top" Visibility="Collapsed">
+							(+999)
+                              </TextBlock>
+                           </StackPanel>
+                        </Grid>
+                        <!--Settler Counter-->
+                        <local:Age3Button x:Name="SettlerCountDialog_fameLabel" Style="{StaticResource settlerCounterButton}" Margin="5,0,0,0" Height="30" Width="40" Visibility="Collapsed" ConsoleCommand="uiFindResourceGatherers(fame)">
+                           <TextBlock x:Name="SettlerCountDialog_fame" Style="{StaticResource RegularTextBlockStyle}" FontFamily="Trajan Pro" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center">
+				{numGatherers(fame)}
+                           </TextBlock>
+                           <Button.ToolTip>
+                              $$212005$$Fame Gatherers: {numGatherers(fame)}
+                           </Button.ToolTip>
+                        </local:Age3Button>
+                     </StackPanel>
+
                      <!--IDLE VILLAGER-->
                      <StackPanel x:Name="resourcePanel_Idle" Orientation="Horizontal" Height="38" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,-3,0,0">
                         <Grid Width="auto" Height="38">
